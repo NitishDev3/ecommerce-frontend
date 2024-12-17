@@ -6,7 +6,7 @@ const Header = () => {
     const [ activeCategory, setActiveCategory ] = useState("home")
 
     return (
-        <div className='shadow-md'>
+        <div className='shadow-lg'>
             <div className='flex justify-between'>
                 <div className='flex justify-center items-center'>
                     <img src={LOGO_IMG} alt="" className='w-24' />
